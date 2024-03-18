@@ -7,6 +7,44 @@
   pointer-events: none;
 }
 
+.start {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  color: #181111;
+  background-color: #00ff05;
+  margin: 20px;
+}
+ 
+.stop {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  color: #181111;
+  background-color: #00ff05;
+  margin: 20px;
+}
+
+.reset {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  color: #181111;
+  background-color: #00ff05;
+  margin: 20px;
+}
+
+.start:disabled {
+ background-color: aqua;
+}
+.stop:hover {
+ background-color: red;
+} 
+
+.reset:hover {
+  background-color: slategrey;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
